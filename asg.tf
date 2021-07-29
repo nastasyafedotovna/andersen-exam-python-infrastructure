@@ -52,9 +52,9 @@ resource "aws_autoscaling_group" "asg" {
 <<<<<<< HEAD
   min_size                  = 0
   max_size                  = 6
-  desired_capacity          = 0
+  desired_capacity          = 2
 =======
-  min_size                  = 2
+  min_size                  = 0
   max_size                  = 6
   desired_capacity          = 2
 >>>>>>> bcc1e576296a50b61667415db4102286e0315c56
