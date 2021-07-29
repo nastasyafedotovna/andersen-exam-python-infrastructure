@@ -12,7 +12,7 @@ resource "aws_ecs_capacity_provider" "cap_provider" {
 
     managed_scaling {
       status          = "ENABLED"
-      target_capacity = 85
+      target_capacity = 100
     }
   }
 }
